@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100vw;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px; 
+}
+
+.navbar ul {
+    display: flex;
+    position: relative;
+    list-style: none;
+    right: 400px;
+    
+  }
+
+.btn{
+    background-color: rgb(43, 168, 236);
+    border: none;
+    color: white;
+    padding: 10px;
+
+}
+.navbar h1{
+    position: relative;
+    right: 382px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 10%;
+    top: 10%;
+    border: 3px solid rgb(163, 157, 157);
+    border-radius: 5px;
+    background-color: azure;
+
+}
+.blue-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 31%;
+    background-color: rgb(14 113 167 / 73%);
+    opacity: 0.5;
+
+}
+
+img[src='./icons/user-circle.png'] {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(14 113 167 / 73%);
+    margin-top: 20px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+  }
+
+  img[src='./icons/map-marker.png'] {
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    top: 265px;
+    margin-left: 20px;
+  }
+img[src='./icons/gear.png'] {
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.card p{
+    position: relative;
+
+    margin-left: 20px;
+    top: 145px;
+}
+.card h1{
+    position: relative;
+    text-align: left;
+    top: 200px;
+    margin-left: 20px;
+}
+p.location{
+    margin-left: 40px;
+    position: relative;
+    top: 167px;
+    font-size: 20px;
+}
+
+.card a{
+    position: relative;
+    top: 140px;
+    left: 20px;
+}
+
+.education-card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 10%;
+    top: 70%;
+    border: 3px solid rgb(163, 157, 157);
+    border-radius: 5px;
+    background-color: azure;
+   
+}
+
+.education-card h2{
+    background-color: black;
+    opacity: 0.7;
+    left: 20px;
+    padding: 10px;
+    margin: 0;
+    color: white;
+
+}
+.education-card h3{
+    position: relative;
+    left: 20px;
+    top: -15px;
+}
+
+.education-card p{
+    position: relative;
+    left: 20px;
+    top: -20px;
+    font-size: 15px;
+    color: black;
+    opacity: 0.5;
+}
+p.skills{
+    opacity: 1;
+}
+
+.connections-card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 260px;
+    height: 210px;
+    left: 45%;
+    top: 10%;
+    border: 3px solid rgb(163, 157, 157);
+    border-radius: 5px;
+    background-color: azure;
+   
+}
+
+
+
+.connections-card h2{
+    background-color: black;
+    opacity: 0.7;
+    left: 20px;
+    padding: 10px;
+    margin: 0;
+    color: white;
+}
+
+.connections-card h2::before {
+    content: "2"; 
+    border-radius: 50%; 
+    background-color: rgb(142, 139, 139); 
+    color: white; 
+    padding: 3px 8px;
+    margin-right: 2px;
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+    left: -4px;
+  }
+
+.connections-card ul{
+    position: relative;
+    left: 20px;
+    list-style: none;
+}
+.connections-card li{
+    position: relative;
+    right: 45px;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+img[src="./icons/todd-s.jpg"] {
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+    border-radius: 50%;
+    
+}
+img[src="./icons/phil-s.jpg"] {
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+    border-radius: 50%;
+    
+}
+
+img[src='./icons/accept-circle.png'] {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 146px;
+    bottom: 5px;
+  }
+  
+  img[src='./icons/close-circle.png'] {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 190px; 
+    bottom: 4px;
+    
+  }
+
+.your-connections{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 263px;
+    height: 331px;
+    left: 45%;
+    top: 43%;
+    border: 3px solid rgb(163, 157, 157);
+    border-radius: 5px;
+    background-color: azure;
+    
+
+}
+.your-connections h2{
+    background-color: black;
+    opacity: 0.7;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+.before-h2{
+    border-radius: 66%;
+    background-color: rgb(142, 139, 139);
+    color: black;
+    padding: 6px 8px;
+    margin-right: 5px;
+    font-size: 12px;
+    width: 21px;
+    height: 10px;
+    position: relative;
+    bottom: -36px;
+    right: 7px;
+}
+.your-connections ul{
+    list-style: none;
+    margin-left: -15px;
+
+}
+.your-connections img {
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+    border-radius: 50%;
+    
+}
+.your-connections li{
+    position: relative;
+    right: 45px;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 37px;
+    
+}
+.your-connections a{
+    margin:5px;
+    border-top: 2px solid rgb(163, 157, 157);
+
+}
