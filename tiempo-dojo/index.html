@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <h1>Dojo Weather</h1>
+        </div>
+        <div class="cities">
+            <a href="#">Burbank</a>
+            <a href="#">Chicago</a>
+            <a href="#">Dallas</a>
+        </div>
+    </header>
+    <main class="scrollable-content">
+        <div class="title">
+            <h2>San Jose</h2>
+            <p> show temperature in <select name="temperature" id="temperature">
+                <option value="celsius">C°</option>
+                <option value="fahrenheit">F°</option>
+            </select>
+            </p>
+        </div>
+        <div class="weather-card"> 
+            <div class="today-card">
+                <h3>Today</h3>
+                <img class="weather-icons" src="./assets/some_rain.png" alt="some some_rain" srcset="">
+                <p>some rain</p>
+                <p class="temperature-red grados">24</p>
+                <p class="temperature-blue grados">18</p>
+            </div>
+            <div class="tomorrow-card">
+                <h3>Tomorrow</h3>
+                <img class="weather-icons" src="./assets/some_sun.png" alt="some some_sun" srcset="">
+                <p>some sun</p>
+                <p class="temperature-red grados">27</p>
+                <p class="temperature-blue grados">19</p>
+            </div>
+            <div class="friday-card">
+                <h3>Friday</h3>
+                <img class="weather-icons" src="./assets/some_clouds.png" alt="some some_clouds" srcset="">
+                <p>some clouds</p>
+                <p class="temperature-red grados">21</p>
+                <p class="temperature-blue grados">16</p>
+            </div>
+            <div class="saturday-card">
+                <h3>Saturday</h3>
+                <img class="weather-icons" src="./assets/some_sun.png" alt="some some_clouds" srcset="">
+                <p>some sun</p>
+                <p class="temperature-red grados">26</p>
+                <p class="temperature-blue grados">21</p>
+            </div>
+            <div class="cookie-card">
+                <div><img src="./assets/cookie.png" alt="cookie" srcset=""></div>
+                <div><h3>Stop! cookie time</h3>
+                <p>we use cookies (sadly not the edible ones) to personalize your content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more</a></p></div>
+                <div><button class="btn"> I accept</button></div>
+            </div>
+        </body>
+    </main>
+ 
+</html>
