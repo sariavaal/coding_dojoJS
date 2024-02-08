@@ -11,7 +11,7 @@ var pizza = pizzaOven("estilo Chicago", "tradicional", ["mozzarella"], ["peppero
 var pizza2 = pizzaOven("lanzada a mano", "marinara", ["mozzarella", "feta"], ["champiñones", "aceitunas", "cebollas"]);
 //crear dos pizzas mas
 var pizza3 = pizzaOven("estilo italiano", "tradicional", ["mozzarella", "ricotta"], ["pancetas", "peperoni"]);
-var pizza4 = pizzaOven("estilo paraguayo", "borde relleno", ["mozzarella", "cheddar"], ["champiñones", "aceitunas", "cebollas", "tomates"]);
+var pizza4 = pizzaOven("estilo Sara", "napolitana", ["mozzarella", "cheddar"], ["champiñones", "aceitunas", "cebollas", "tomates"]);
 console.log(pizza);
 console.log(pizza2);
 console.log(pizza3);
